@@ -1,2 +1,3 @@
 ---
+ - name: include motd file
   include: tasks/main.yml
