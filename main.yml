@@ -1,11 +1,10 @@
 ---
 
-dependencies:
-- { role: ansible-ping }
 
 - name: Apply motd to all hosts.
   hosts: all
   tasks:
-
   - include: tasks/main.yml
+  dependencies:
+  - { role: ansible-ping }
 
