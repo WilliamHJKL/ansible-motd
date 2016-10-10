@@ -1,0 +1,8 @@
+---
+# tasks file for ansible-motd
+- name: Define MOTD
+  template:
+    src: motd.j2
+    dest: /etc/motd
+  tags:
+    - motd
