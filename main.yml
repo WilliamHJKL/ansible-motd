@@ -1,6 +1,5 @@
 ---
 
-
 - name: Apply motd to all hosts.
   hosts: all
   tasks:
