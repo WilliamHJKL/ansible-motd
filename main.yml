@@ -5,6 +5,4 @@
   hosts: all
   tasks:
   - include: tasks/main.yml
-  dependencies:
-  - { role: ansible-ping }
 
