@@ -4,5 +4,14 @@
   template:
     src: motd.j2
     dest: /etc/motd
+- name: Define issue
+  template:
+    src: motd.j2
+    dest: /etc/issue
+- name: Define issue.net
+  template:
+    src: motd.j2
+    dest: /etc/issue.net
+
   tags:
     - motd
